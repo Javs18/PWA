@@ -1,0 +1,306 @@
+.main {
+  text-align: center;
+}
+
+
+/* ---- Estilos b�sicos ---------------------------------------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font: 70%/160% "verdana", sans-serif;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+p {
+  margin: 1em 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 260%;
+  font-family: "georgia", serif;
+  font-weight: normal;
+  margin: 1em 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 180%;
+  font-family: "georgia", serif;
+  font-weight: normal;
+  margin: 1em 0;
+  padding: 0;
+}
+
+h3 {
+  font-size: 120%;
+  font-weight: bold;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+ul,
+ol {
+  margin: 1em 0 1em 2em;
+  padding: 0;
+}
+
+/* ---- Layout ------------------------------------------------------------- */
+
+#cabecera {
+  width: 100%;
+  position: relative;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  background: #750116 url("../imagenes/cabecera.jpg") 0 0 repeat-x;
+  color: #FFF;
+}
+
+#contenido {  
+  padding: auto;
+  background: #290000;
+}
+
+#contenido #principal {
+  margin-top: 15px;
+  padding: auto;
+  background: rgb(0, 0, 0)
+}
+
+#pie {
+  clear: both;
+  height: 60px;
+  color: #ffffff;
+  position: relative;
+  border: #000000 solid 1px;
+  background: #750116 url("../imagenes/cabecera.jpg") 0 0 repeat-x;
+}
+
+/* ---- Cabecera ----------------------------------------------------------- */
+#cabecera #logo {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+  margin: 0;
+}
+
+#cabecera #logo a {
+  color: #FFF;
+  display: block;
+  line-height: 35px;
+}
+
+#cabecera #logo a:hover {
+  color: #620000;
+  text-decoration: underline;
+}
+
+#cabecera #buscador {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  text-align: right;
+}
+
+#cabecera #buscador legend {
+  display: none;
+}
+
+#cabecera #buscador fieldset {
+  border: none;
+}
+
+/* ---- Men� --------------------------------------------------------------- */
+#menu {
+  background: #9c0202;
+  padding: 10px 0 0 0;
+}
+
+
+#menu ul {
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+#menu ul li {
+  margin: 5px;
+  padding: 0;
+  float: left;
+}
+
+#menu ul li a {
+  display: block;
+  position: relative;
+  padding: 5px 15px;
+  border: 0;
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#menu ul li a:hover {
+  background: #4d0000;
+}
+
+#menu ul li.seleccionado a {
+  background: #FFF;
+  color: #9c0202;
+}
+
+/* ---- Contenidos --------------------------------------------------------- */
+#contenido .articulo {
+  clear: both;
+  margin: 0;
+  padding: 20px;
+  max-width: 100%;
+  min-width: 300px;
+  width: 100vw;
+  color: #ffffff;
+}
+
+#contenido .articulo img {
+  width: 55%;
+  border-radius: 15px;
+
+}
+
+#contenido .articulo h2 {
+  margin: 0 -20px;
+  padding: 10px;
+  background: #ff00008f;
+  color: #ffffff;
+}
+
+
+#contenido .info {
+  margin: 10px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #9c0202;
+  color: #fcfcfc;
+}
+
+#contenido .info a {
+  color: #fcfcfc;
+}
+
+#contenido .info a:hover {
+  color: #ff0000;
+}
+
+#contenido .info span.fecha,
+#contenido .info span.categoria,
+#contenido .info span.autor,
+#contenido .info span.comentarios {
+  padding-left: 15px;
+}
+
+#contenido .info span.fecha {
+}
+
+#contenido .info span.categoria {
+  margin-left: 8px;
+}
+
+#contenido .info span.autor {
+  margin-left: 8px;
+}
+
+#contenido .info span.comentarios {
+  margin-left: 8px;
+}
+p a{
+  color: #ff0000;
+}
+
+
+
+/* ---- Pie ---------------------------------------------------------------- */
+#pie p {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  left: 40px;
+}
+
+/* ---- Contenidos Secundario --------------------------------------------------------- */
+#contenidoS #secundario h3 {
+  padding: 10px 0 10px 10px;
+  margin-top: 20px;
+  background: #010101;
+  color: #d90202;
+}
+#contenidoS #secundario h3 a{
+  background: #010101;
+  color: #d90202;
+}
+
+#contenidoS #secundario #sobremi img {
+  float: left;
+  margin: 4px 5px 0 0;
+}
+
+#contenidoS #secundario #sobremi p {
+  background: #620000;
+  color: #ffffff;
+  padding-left: 70px;
+  text-align: center;
+}
+
+#contenidoS #secundario div {
+
+}
+
+#contenidoS #secundario ul {
+  margin: 15px 0;
+  padding: 0;
+  list-style: none;
+}
+
+#contenidoS #secundario li {
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #9c0202;
+}
+
+#contenidoS #secundario li a {
+  display: block;
+  padding: 3px 0 3px 22px;
+  text-decoration: none;
+}
+
+#contenidoS #secundario li a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#contenidoS #secundario li.seleccionado a {
+  font-weight: bold;
+  background: #9a9a9a;
+}
+
+#contenidoS {
+  margin-top: 15px;
+  background: #9c0202;
+}
+
+#contenidoS #secundario {
+  background: #5f0000;
+}

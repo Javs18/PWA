@@ -1,0 +1,19 @@
+{
+  "name": "#MiSitioWebPersonal",
+  "short_name": "#SitioPersonal",
+  "description": "Bienvenid@s a #MiSitioWebPersonal, en donde podras concer un poco mas de mis pasatiempos, algunos datos de mi y redes sociales",
+  "background_color": "#2B2B2B",
+  "theme_color": "#F0DB4F",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./?utm_source=web_app_manifest",
+  "scope": "./",
+  "lang": "es-MX",
+  "icons": [
+    {
+      "src": "./imgenes/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ]
+}
