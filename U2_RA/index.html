@@ -1,0 +1,302 @@
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Custom JRZ
+  </title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="css/estilos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+  <!--Barra de navegación-->
+  <header>
+    <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">
+          <strong>Custom JRZ</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarHeader">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-2">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Catálogo</a>
+            </li>
+            <li class="nav-item">
+              <a href="contacto.html" class="nav-link">Contacto</a>
+            </li>
+          </ul>
+          
+          <div class="container-icon">
+            <div class="container-cart-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="icon-cart">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+              </svg>
+              <div class="count-products">
+                <span id="contador-productos">0</span>
+              </div>
+            </div>
+
+
+
+            <div class="container-cart-products hidden-cart">
+              <div class="row-product hidden">
+                <div class="cart-product">
+                  <div class="info-cart-product">
+                    <span class="cantidad-producto-carrito">1</span>
+                    <p class="titulo-producto-carrito">Zapatos Nike</p>
+                    <span class="precio-producto-carrito">$80</span>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="icon-close">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </div>
+              </div>
+
+              <div class="cart-total hidden">
+                <h3>Total:</h3>
+                <span class="total-pagar">$200</span>
+              </div>
+              <p class="cart-empty">El carrito está vacío</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Carrito de compras -->
+
+
+
+
+
+  </header>
+
+
+
+
+
+  <!--Contenido-->
+
+
+  <div class="container-items">
+    <div class="item">
+      <div class="info-product">
+        <img src="JORDAN 8 RETRO.png" alt="pic2" border="0">
+        <br>
+        <a href="jordan8.html" class="btn btn-outline-secondary">Jordan 8 Retro</a>
+        <h6 class="card-title"> VARIEDAD DE TALLAS</h6>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">TALLAS</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Seleccionar</option>
+            <option value="39">25</option>
+            <option value="40">26</option>
+            <option value="41">27</option>
+            <option value="42">27.5</option>
+            <option value="43">28</option>
+            <option value="44">28.5</option>
+          </select>
+        </div>
+        <h6 class="card-title">PRECIO</h6>
+        <p class="price" name="precio" id="precio">$4500</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+
+
+
+    <div class="item">
+      <div class="info-product">
+        <img src="AdidasSuper.png" alt="pic2" border="0">
+        <br>
+        <a href="adidas_superstars.html" class="btn btn-outline-secondary">Adidas Superstars</a>
+        <h6 class="card-title"> VARIEDAD DE TALLAS</h6>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">TALLAS</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Seleccionar</option>
+            <option value="39">25</option>
+            <option value="40">26</option>
+            <option value="41">27</option>
+            <option value="42">27.5</option>
+            <option value="43">28</option>
+            <option value="44">28.5</option>
+          </select>
+        </div>
+        <h6 class="card-title">PRECIO</h6>
+        <p class="price">$3750</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+
+
+
+    <div class="item">
+      <div class="info-product">
+        <img src="Converse.png" alt="pic2" border="0">
+        <br>
+        <a href="converse_ft_snoop_dog.html" class="btn btn-outline-secondary">Converse Ft. Snoop Dog</a>
+        <h6 class="card-title"> VARIEDAD DE TALLAS</h6>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">TALLAS</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Seleccionar</option>
+            <option value="39">25</option>
+            <option value="40">26</option>
+            <option value="41">27</option>
+            <option value="42">27.5</option>
+            <option value="43">28</option>
+            <option value="44">28.5</option>
+          </select>
+        </div>
+        <h6 class="card-title">PRECIO</h6>
+        <p class="price">$4500</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+
+
+
+    <div class="item">
+      <div class="info-product">
+        <img src="Vans.png" alt="pic2" border="0">
+        <br>
+        <a href="vans_color.html" class="btn btn-outline-secondary">Vans Color</a>
+        <h6 class="card-title"> VARIEDAD DE TALLASS</h6>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">TALLAS</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Seleccionar</option>
+            <option value="39">25</option>
+            <option value="40">26</option>
+            <option value="41">27</option>
+            <option value="42">27.5</option>
+            <option value="43">28</option>
+            <option value="44">28.5</option>
+          </select>
+        </div>
+        <h6 class="card-title">PRECIO</h6>
+        <p class="price">$4500</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <div class="info-product">
+        <img src="Reebok.png" alt="pic2" border="0">
+        <br>
+        <a href="reebok_splash.html" class="btn btn-outline-secondary">Reebok Splash</a>
+        <h6 class="card-title"> VARIEDAD DE TALLAS</h6>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">TALLAS</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Seleccionar</option>
+            <option value="39">25</option>
+            <option value="40">26</option>
+            <option value="41">27</option>
+            <option value="42">27.5</option>
+            <option value="43">28</option>
+            <option value="44">28.5</option>
+          </select>
+        </div>
+        <h6 class="card-title">PRECIO</h6>
+        <p class="price">$4500</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+
+
+
+    <div class="item">
+      <div class="info-product">
+        <img src="FILA BLUE.png" alt="pic2" border="0">
+        <br>
+        <a href="fila_blue_flow.html" class="btn btn-outline-secondary">Fila Blue Flow</a>
+        <h6 class="card-title"> VARIEDAD DE TALLAS</h6>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">TALLAS</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Seleccionar</option>
+            <option value="39">25</option>
+            <option value="40">26</option>
+            <option value="41">27</option>
+            <option value="42">27.5</option>
+            <option value="43">28</option>
+            <option value="44">28.5</option>
+          </select>
+        </div>
+        <h6 class="card-title">PRECIO</h6>
+        <p class="price">$4500</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+
+
+    <div class="item">
+      <div class="info-product">
+        <img src="Skecher.png" alt="pic2" border="0">
+        <br>
+        <a href="sckecher_rs.html" class="btn btn-outline-secondary">Sckecher R.S</a>
+        <h6 class="card-title"> VARIEDAD DE TALLAS</h6>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">TALLAS</label>
+          </div>
+          <select class="custom-select" id="inputGroupSelect01">
+            <option selected>Seleccionar</option>
+            <option value="39">25</option>
+            <option value="40">26</option>
+            <option value="41">27</option>
+            <option value="42">27.5</option>
+            <option value="43">28</option>
+            <option value="44">28.5</option>
+          </select>
+        </div>
+        <h6 class="card-title">PRECIO</h6>
+        <p class="price">$4500</p>
+        <button class="btn-add-cart">Añadir al carrito</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <script src="index.js"></script>
+  <script src="./script.js"></script>
+
+
+
+</body>
+
+</html>
